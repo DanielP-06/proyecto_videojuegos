@@ -67,8 +67,6 @@ El análisis se basa en el conjunto de datos en un DataFrame `games.csv`, que co
 3.  Abre el Notebook Proyecto?Videojuegos en un entorno como Google Colab, JupyterLab o Jupyter Notebook o VS Code.
 4.  Ejecuta las celdas secuencialmente.
 
-## Contribución
-
 Este proyecto tiene fines educativos y demuestra técnicas de análisis de datos aplicadas.
 
 ## Autor
