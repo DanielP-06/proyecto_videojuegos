@@ -2,16 +2,18 @@
 
 Este proyecto analiza un conjunto de datos de ventas de videojuegos, explorando las tendencias del mercado, la popularidad de las plataformas, el rendimiento de los géneros y el comportamiento del consumidor regional entre 2010 y 2016. El objetivo es obtener insights utiles y proporcionar recomendaciones basadas en datos para una tienda minorista de videojuegos online , "Ice", con el fin de optimizar su estrategia para 2017 y años siguientes.
 
-## Descripción del Proyecto
-
-La industria de los videojuegos es dinámica y compleja, con ventas influenciadas por factores como los ciclos de vida de las plataformas o consolas, los géneros de los juegos, las reseñas de críticos y usuarios, y las preferencias regionales. Este análisis toma los datos históricos de ventas para comprender estas influencias e identificar tendencias importantes que puedan informar las decisiones comerciales para el futuro.
+## El problema
+La tienda online Ice necesita entender qué factores impulsan las ventas de videojuegos (plataforma, género, puntuaciones, región) para optimizar inventario, campañas y estrategia comercial en 2017 y años siguientes. El objetivo es identificar tendencias, plataformas y géneros prioritarios, además de medir el impacto de las reseñas en ventas por región.
 
 ## Datos
 
-El análisis se basa en el conjunto de datos en un DataFrame `games.csv`, que contiene información de títulos de videojuegos, plataformas, años de lanzamiento, géneros, ventas regionales (Norteamérica, Europa, Japón y Otros), puntuaciones de críticos, puntuaciones de usuarios y clasificaciones por edad (Rating).
+Archivo principal: games.csv (DataFrame con columnas típicas: name, platform, year_of_release, genre, na_sales, eu_sales, jp_sales, other_sales, critic_score, user_score, rating).
 
-## Pasos del Análisis
+Periodo de interés: 2010–2016 (se selecciona por estabilidad de plataformas relevantes en ese intervalo).
 
+Limpiezas realizadas: manejo de NaN en name/genre/year_of_release, conversión de user_score (tratamiento de tbd), cómputo de global_sales = na+eu+jp+other.
+
+## Método
 1.  **Carga y Preprocesamiento de Datos:**
     *   Carga del conjunto de datos en un DataFrame de pandas.
     *   Inspección inicial de tipos de datos y valores ausentes.
@@ -41,7 +43,7 @@ El análisis se basa en el conjunto de datos en un DataFrame `games.csv`, que co
     *   Prueba de la hipótesis de que las puntuaciones promedio de los usuarios para los géneros Acción y Deportes son diferentes.
     *   Discusión del criterio estadístico utilizado para las pruebas de hipótesis.
 
-5.  **Conclusión y Recomendaciones:**
+5.  **KPIs:**
     *   Resumen de los hallazgos clave sobre los ciclos de vida de las plataformas, los factores que influyen en las ventas, los patrones de consumo regional y el rendimiento de los géneros.
     *   Recomendaciones ejecutables para la estrategia de la tienda Ice en 2017, enfocárse en plataformas clave, estrategias de género, aprovechamiento de reseñas y personalización regional del marketing.
 
