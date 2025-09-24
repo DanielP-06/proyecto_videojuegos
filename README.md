@@ -43,11 +43,11 @@ Limpiezas realizadas: manejo de NaN en name/genre/year_of_release, conversión d
     *   Prueba de la hipótesis de que las puntuaciones promedio de los usuarios para los géneros Acción y Deportes son diferentes.
     *   Discusión del criterio estadístico utilizado para las pruebas de hipótesis.
 
-5.  **KPIs:**
+5.  **Hallazgos clave:**
     *   Resumen de los hallazgos clave sobre los ciclos de vida de las plataformas, los factores que influyen en las ventas, los patrones de consumo regional y el rendimiento de los géneros.
     *   Recomendaciones ejecutables para la estrategia de la tienda Ice en 2017, enfocárse en plataformas clave, estrategias de género, aprovechamiento de reseñas y personalización regional del marketing.
 
-## Hallazgos Clave
+## KPIs
 
 *   Los ciclos de vida de las plataformas impactan significativamente en las ventas; PS4 y Xbox One fueron plataformas clave en la parte final del período de análisis.
 *   Las puntuaciones de críticos muestran una correlación positiva moderada con las ventas, mientras que las de usuarios muestran una correlación más débil.
