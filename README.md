@@ -1,6 +1,4 @@
-# Análisis del Mercado de Videojuegos (2010-2016)
-
-Este proyecto analiza un conjunto de datos de ventas de videojuegos, explorando las tendencias del mercado, la popularidad de las plataformas, el rendimiento de los géneros y el comportamiento del consumidor regional entre 2010 y 2016. El objetivo es obtener insights utiles y proporcionar recomendaciones basadas en datos para una tienda minorista de videojuegos online , "Ice", con el fin de optimizar su estrategia para 2017 y años siguientes.
+• Este proyecto analiza un conjunto de datos de ventas de videojuegos, explorando las tendencias del mercado, la popularidad de las plataformas, el rendimiento de los géneros y el comportamiento del consumidor regional entre 2010 y 2016. El objetivo es obtener insights utiles y proporcionar recomendaciones basadas en datos para una tienda minorista de videojuegos online , "Ice", con el fin de optimizar su estrategia para 2017 y años siguientes.
 
 ## El problema
 La tienda online Ice necesita entender qué factores impulsan las ventas de videojuegos (plataforma, género, puntuaciones, región) para optimizar inventario, campañas y estrategia comercial en 2017 y años siguientes. El objetivo es identificar tendencias, plataformas y géneros prioritarios, además de medir el impacto de las reseñas en ventas por región.
